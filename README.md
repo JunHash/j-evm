@@ -16,3 +16,17 @@ go build .
 ```
 ./demo
 ```
+#### 运行结果
+```  
+Execute OP:  PUSH1
+Execute OP:  PUSH1
+Execute OP:  MSTORE
+Execute OP:  PUSH1
+Execute OP:  DUP1
+Execute OP:  PUSH1
+Execute OP:  PUSH1
+Execute OP:  CODECOPY
+Execute OP:  PUSH1
+Execute OP:  RETURN
+[96 96 96 64 82 96 8 86 91 0]
+```
